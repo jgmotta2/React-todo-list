@@ -1,5 +1,6 @@
 import Header from '../header/Header.tsx'
 import TaskInput from '../taskInput/TaskInput.tsx'
+import TaskList from '../taskList/TaskList.tsx'
 
 function App() {
 
@@ -7,6 +8,7 @@ function App() {
         <>
             <Header />
             <TaskInput />
+            <TaskList />
         </>
     )
 }

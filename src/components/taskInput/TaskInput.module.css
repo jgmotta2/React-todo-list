@@ -14,7 +14,11 @@
     border-radius: 8px;
     background-color: #262626;
     padding-left: 1rem;
+}
 
+.taskInput input:focus {
+    border: 2px solid #8284FA;
+    outline: none;
 }
 
 .taskInput button {
@@ -24,4 +28,9 @@
     border-radius: 8px;
     background-color: #1E6F9F;
     color: #F2F2F2;
+}
+
+.taskInput button:hover {
+    background-color: #4EA8DE;
+    cursor: pointer;
 }
