@@ -22,6 +22,10 @@
 }
 
 .taskInput button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0.25rem;
     width: 5rem;
     height: 3rem;
     border: none;
