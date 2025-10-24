@@ -1,23 +1,32 @@
 .taskList {
-    display: grid;
-    justify-content: center;
+    display: flex;
+    flex-direction: column;
     align-items: center;
     gap: 3rem;
-
+    border: 1px solid red;
 }
 
 .taskList section {
     display: flex;
+    justify-content: center;
     gap: 32rem;
 }
 
 .description {
-    display: grid;
-    justify-content: center;
-    gap: 1px;
-    border: 1px solid red;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+    border: 1px solid blue;
+    width: 100%;
 }
 
-.p1 {
+.text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.text p:first-child {
     font-weight: bold;
 }
